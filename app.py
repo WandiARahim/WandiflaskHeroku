@@ -10,7 +10,7 @@ app = Flask(__name__)
 @app.route('/')
 def validate():
    
-    return (color.RED + color.BOLD + "HELLO WORLD!!" + color.END)
+    return "HELLO WORLD!!"
 
 
 @app.route('/users')
